@@ -58,9 +58,9 @@ Want to give thanks to Deca, Odjit and everyone in the VrisingModing discord who
 
 ## Support:
 
-- I go by `Morphine` on the Vrising modding [Modding VRising Mod ](]https://vrisingmods.com/discord)
+- I go by `Morphine` on the Vrising modding [Modding VRising Mod ](https://vrisingmods.com/discord)
 - Additionally feel free to open issues on the github
 
 ## Pull Requests:
 
-I want to keep this thing simple but if there's anything you think I missed or did stupid I will try to review any PR's in a timely manner. Feel free to msg me on Discord (@morphine) if I don't respond within a day.
+I want to keep this thing simple but if there's anything you think I missed or did stupid I will try to review any PR's in a timely manner. Feel free to msg me on [Discord](https://vrisingmods.com/discord) (@morphine) if I don't respond within a day.
