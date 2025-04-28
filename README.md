@@ -16,7 +16,7 @@ To properly setup this mod you need to:
 - Go to your discord and [get you webhook Url](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) in the channel you want messages sent to.
 - Add the webhook url to hook.txt
 - ‼️NOTE: Do not share the webhook url with anyone. Don't post it when asking for support either.
-- Add the VampireWebhook.dll to `\BepInEx\plugins\`
+- Add the `VampireWebhook.dll` to `\BepInEx\plugins\`
 - You're good to go!
 
 ## Setttings
