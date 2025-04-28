@@ -19,7 +19,7 @@ public static class DiscordWebhook
     // <summary>
     // Loads the webhook URL from the file. Returns true if the URL is valid and the webhook is enabled.
     // </summary>
-    public static async Task<bool> LoadHook()
+    internal static async Task<bool> LoadHook()
     {
         if (!File.Exists(DISCORD_HOOK_FILE_PATH))
         {
