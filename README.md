@@ -27,7 +27,7 @@ Set the value to `false` if you need to turn off the webhook for some reason.
 ```ini
 [General]
 
-## Announce kills in chat
+## toggle for sending messages to the webhook
 # Setting type: Boolean
 # Default value: true
 UseDiscordWebhook = true
