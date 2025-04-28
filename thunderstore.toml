@@ -1,0 +1,30 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "morphine"
+name = "VampireWebhook"
+versionNumber = "0.1.0"
+description = "A simple package for sending messages to Discord."
+websiteUrl = "https://github.com/phlebotomist/VampireWebhook"
+containsNsfwContent = false
+
+[package.dependencies]
+BepInEx-BepInExPack_V_Rising = "1.691.3"
+deca-VampireCommandFramework = "0.9.999"
+
+[build]
+icon = "./logo.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./dist"
+target = ""
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["v-rising"]
+
+[publish.categories]
+v-rising = ["1.1 update", "mods", "server"]

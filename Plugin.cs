@@ -25,6 +25,8 @@ public class Plugin : BasePlugin
 
         CommandRegistry.RegisterAll();
 
+        Settings.Initialize(Config);
+
         _ = DiscordWebhook.LoadHook();
     }
 
