@@ -10,6 +10,15 @@ containsNsfwContent = false
 BepInEx-BepInExPack_V_Rising = "1.733.2"
 deca-VampireCommandFramework = "0.10.2"
 
+[build]
+icon = "./logo.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./bin/Debug/net6.0/VampireWebhook.dll"
+target = "VampireWebhook.dll"
+
 [publish]
 repository = "https://thunderstore.io"
 communities = ["v-rising"]
