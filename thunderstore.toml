@@ -1,6 +1,3 @@
-[config]
-schemaVersion = "0.0.1"
-
 [package]
 namespace = "morphine"
 name = "VampireWebhook"
@@ -12,15 +9,6 @@ containsNsfwContent = false
 [package.dependencies]
 BepInEx-BepInExPack_V_Rising = "1.733.2"
 deca-VampireCommandFramework = "0.10.2"
-
-[build]
-icon = "./logo.png"
-readme = "./README.md"
-outdir = "./build"
-
-[[build.copy]]
-source = "./dist"
-target = ""
 
 [publish]
 repository = "https://thunderstore.io"
